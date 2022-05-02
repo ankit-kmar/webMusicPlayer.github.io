@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="music-container">
+            <h2 id="title">Gehraiyaan - Title Track</h2>
+            <h3 id="artist">Sony Music</h3>
+            <div class="img-container">
+                <img src="img/music-3.jpg" alt="">
+            </div>
+            <audio src="music/Gehraiyaan - Title Track.mp3" ></audio>
+
+            <!-- controls -->
+            <div class="music-controls">
+                <i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+                <i class="fa-solid fa-play main-btn" id="play" title="Play"></i>
+                <i class="fa-solid fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
