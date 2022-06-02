@@ -26,6 +26,12 @@ const songs = [
     title:"Beqaaboo",
     artist: "Savera"
 },
+
+{
+    name: "One Dance",
+    title:"One Dance",
+    artist: "Drake"
+},
 ]
 
 
