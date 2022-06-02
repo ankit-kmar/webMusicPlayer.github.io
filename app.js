@@ -26,6 +26,18 @@ const songs = [
     title:"Beqaaboo",
     artist: "Savera"
 },
+
+{
+    name: "One Dance",
+    title:"One Dance",
+    artist: "Drake"
+},
+
+{
+    name: "No Lie",
+    title:"No Lie",
+    artist: "Dua Lipa ft. Sean Paul"
+},
 ]
 
 
